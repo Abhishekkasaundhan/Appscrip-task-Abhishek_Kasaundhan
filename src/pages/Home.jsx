@@ -1,12 +1,14 @@
-import React from 'react';
+import { Navbar, Main, Product, Footer } from "../components";
 
-const Home = () => {
+function Home() {
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="text-3xl font-bold my-8">Welcome to Our Store</h1>
-      {/* Add more content */}
-    </div>
-  );
-};
+    <>
+      <Navbar />
+      <Main />
+      <Product />
+      <Footer />
+    </>
+  )
+}
 
-export default Home;
+export default Home
